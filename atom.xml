@@ -42,7 +42,7 @@
     <link href="https://a-god-of-death.github.io/2023/09/25/hello-world/"/>
     <id>https://a-god-of-death.github.io/2023/09/25/hello-world/</id>
     <published>2023-09-25T01:54:43.210Z</published>
-    <updated>2023-09-27T11:15:29.490Z</updated>
+    <updated>2023-09-27T11:17:08.941Z</updated>
     
     <content type="html"><![CDATA[<meta charset="UTF-8"><h4 id="这里记录的坑基本只适用于hive-hexo这个主题"><a href="#这里记录的坑基本只适用于hive-hexo这个主题" class="headerlink" title="这里记录的坑基本只适用于hive-hexo这个主题"></a>这里记录的坑基本只适用于hive-hexo这个主题</h4><p>这里主题模版里的文件很多修改都跟其他主题不太一样</p><p>如果用github的地址不能显示主题，就要修改根目录下的url和root<br>url：原来的网址&#x2F;项目名<br>root：&#x2F;项目名</p><p>原本的模板里有一个默认的categories，要在post.pug那里的page.desc修改</p><p>原本的模板有很多按钮设计不太合理</p><p>记得加UTF-8</p><p>需要新加页面可以直接在theme&#x2F;hive-hexo&#x2F;source里新建</p><p>保护好自己文件</p><p>在本地预览没问题再传到github</p><p>这个主题有很多是pug写的 所以改配置对于我来说没那么顺畅</p>]]></content>
     
