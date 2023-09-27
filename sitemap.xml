@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://a-god-of-death.github.io/2023/09/25/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/</loc>
+    <loc>https://a-god-of-death.github.io/2023/09/25/hello-world/</loc>
     
     <lastmod>2023-09-27</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://a-god-of-death.github.io/2023/09/25/hello-world/</loc>
+    <loc>https://a-god-of-death.github.io/2023/09/25/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/</loc>
     
-    <lastmod>2023-09-25</lastmod>
+    <lastmod>2023-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
