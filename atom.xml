@@ -6,7 +6,7 @@
   <link href="https://a-god-of-death.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-god-of-death.github.io/"/>
-  <updated>2023-09-28T03:16:20.321Z</updated>
+  <updated>2023-09-28T19:29:11.180Z</updated>
   <id>https://a-god-of-death.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>各大公链分析</title>
+    <link href="https://a-god-of-death.github.io/2023/09/29/%E5%90%84%E5%A4%A7%E5%85%AC%E9%93%BE%E5%88%86%E6%9E%90/"/>
+    <id>https://a-god-of-death.github.io/2023/09/29/%E5%90%84%E5%A4%A7%E5%85%AC%E9%93%BE%E5%88%86%E6%9E%90/</id>
+    <published>2023-09-28T18:15:13.034Z</published>
+    <updated>2023-09-28T19:29:11.180Z</updated>
+    
+    <content type="html"><![CDATA[<meta charset="UTF-8"><p>现在区块链上到底有多少公链呢？查了很久，都没有一个具体的数字。</p><p>参考资料：<br>1.<a href="%22https://zhuanlan.zhihu.com/p/458075511%22">https://zhuanlan.zhihu.com/p/458075511</a><br>2.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;p&gt;现在区块链上到底有多少公链呢？查了很久，都没有一个具体的数字。&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;br&gt;1.&lt;a href=&quot;%22https://zhuanlan.zhihu.com/p/458075511%22&quot;&gt;https://</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>构建一个简单问答论坛的过程</title>
+    <link href="https://a-god-of-death.github.io/2023/09/28/AMM%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/"/>
+    <id>https://a-god-of-death.github.io/2023/09/28/AMM%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/</id>
+    <published>2023-09-28T06:49:09.514Z</published>
+    <updated>2023-09-30T03:07:46.912Z</updated>
+    
+    <content type="html"><![CDATA[<meta charset="UTF-8"><h5 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h5><p>建个“论坛”<br>论坛的目标是在polygon上建个一个功能齐全、可翻转的问答应用程序。 然后添加AMM，功能是交换为问答论坛创建的代币。</p><p>首先要选一条链 在这里选择polygon 因为polygon费用较低，速度比较快，而且evm兼容。</p><p>用到这几个库<br>chakra-ui<br>react-query<br>wagmi<br>davatar </p><p>连接钱包的时候如果用metamask要说明chainid<br>networks: {<br>  hardhat: {<br>    chainId: 1337<br>  },<br>}<br>可以直接换成okx或其他钱包</p><p>注意某些变量要设置为私有<br>如idCounter，commentsByTopic<br>如果将idCounter变量定义为公共的（public），则其他合约或外部账户可以直接读取和修改idCounter的值。这可能导致潜在的安全风险和数据不一致性。<br>其他合约或外部账户可以通过直接访问idCounter来更改评论的id计数器。这可能导致评论的id不再唯一，或者被恶意修改，从而破坏评论的正确性和可靠性。<br>通过将idCounter定义为私有的，只有合约内部可以访问和修改idCounter的值。这样可以确保评论的id计数器只能在合约内部进行递增，并且不会受到外部干扰。<br>commentByTopic同理</p><p>如果出现<br>The error message suggests that the network you’re trying to connect to, “<a href="http://localhost:8545/">http://localhost:8545</a>,” is not supported or there might be a network error.<br>如果配置无误 在hardhat配置里更新一下solidity的版本就可以了</p><p>出现chainid错误<br>matamask会默认在1337chainid<br>这里卡住了。。换了钱包还没解决</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;h5 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h5&gt;&lt;p&gt;建个“论坛”&lt;br&gt;论坛的目标是在polygon上建个一个功能齐全、可翻转的问答应用程序。 </summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>a16z：Big Ideas in tech for 2023</title>
@@ -40,12 +85,12 @@
   
   <entry>
     <title>踩坑记录</title>
-    <link href="https://a-god-of-death.github.io/2023/09/25/hello-world/"/>
-    <id>https://a-god-of-death.github.io/2023/09/25/hello-world/</id>
+    <link href="https://a-god-of-death.github.io/2023/09/25/%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/"/>
+    <id>https://a-god-of-death.github.io/2023/09/25/%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/</id>
     <published>2023-09-25T01:54:43.210Z</published>
-    <updated>2023-09-28T04:10:29.205Z</updated>
+    <updated>2023-09-29T03:01:27.361Z</updated>
     
-    <content type="html"><![CDATA[<meta charset="UTF-8"><h4 id="这里记录的坑基本只适用于hive-hexo这个主题"><a href="#这里记录的坑基本只适用于hive-hexo这个主题" class="headerlink" title="这里记录的坑基本只适用于hive-hexo这个主题"></a>这里记录的坑基本只适用于hive-hexo这个主题</h4><p>这里主题模版里的文件很多修改都跟其他主题不太一样</p><p>如果用github的地址不能显示主题，就要修改根目录下的url和root<br>url：原来的网址&#x2F;项目名<br>root：&#x2F;项目名</p><p>原本的模板里有一个默认的categories，要在post.pug那里的page.desc修改</p><p>原本的模板有很多按钮设计不太合理</p><p>这个主题文件有些地方用英文，有些地方用了波斯语，直接去index文件修改语言</p><p>记得加UTF-8</p><p>需要新加页面可以直接在theme&#x2F;hive-hexo&#x2F;source里新建</p><p>保护好自己文件</p><p>在本地预览没问题再传到github</p><p>这个主题有很多是pug写的 所以改配置对于我来说没那么顺畅</p>]]></content>
+    <content type="html"><![CDATA[<meta charset="UTF-8"><h4 id="这里记录的坑基本只适用于hive-hexo这个主题"><a href="#这里记录的坑基本只适用于hive-hexo这个主题" class="headerlink" title="这里记录的坑基本只适用于hive-hexo这个主题"></a>这里记录的坑基本只适用于hive-hexo这个主题</h4><p>这里主题模版里的文件很多修改都跟其他主题不太一样</p><p>如果用github的地址不能显示主题，就要修改根目录下的url和root<br>url：原来的网址&#x2F;项目名<br>root：&#x2F;项目名</p><p>原本的模板里有一个默认的categories，要在post.pug那里的page.desc修改 更改这个categories是在文章里加desc 不要用默认的category</p><p>原本的模板有很多按钮设计不太合理</p><p>这个主题文件有些地方用英文，有些地方用了波斯语 有时候会出现波斯语 我改了index的语言<br>刷新之后变回英文 但有时可能会又出现波斯语 清理下缓存就能变回去了</p><p>记得加UTF-8</p><p>新加页面可以直接在theme&#x2F;hive-hexo&#x2F;source里新建</p><p>这个主题有很多是pug写的 所以改配置对于我来说没那么顺畅</p>]]></content>
     
     
       
